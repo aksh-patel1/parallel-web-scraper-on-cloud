@@ -1,0 +1,18 @@
+# Use the official Python image
+FROM python:3.8-slim
+
+# Set the working directory in the container
+WORKDIR /app
+
+# Copy the Python script, the credentials file, requirements file, and the .env file
+COPY processor.py .
+COPY iconic-range-412912-258f129777ff.json .
+COPY requirements.txt .
+COPY .env .
+COPY processor.log .
+
+# Install dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Run the processor.py script
+CMD ["python", "processor.py"]

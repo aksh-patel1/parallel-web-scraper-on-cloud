@@ -1,0 +1,5 @@
+# Ignore .env files
+**/.env
+
+# Ignore iconic-range-412912-258f129777ff.json files
+**/iconic-range-412912-258f129777ff.json
