@@ -38,7 +38,7 @@ This project demonstrates an event-driven architecture for web scraping and proc
 
 1.  Clone the repository:
     
-    `git clone https://github.com/your-username/your-repository.git` 
+    `git clone https://github.com/aj225patel/parallel-web-scraper-on-cloud.git` 
 2.  Set up AWS services following the instructions in the `README.md` file.
 3.  Configure the Google Sheets API following the instructions in the `README.md` file.
 4.  Deploy the Docker images for the scraper job and processing job to AWS ECR. 
